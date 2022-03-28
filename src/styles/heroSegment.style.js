@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 import GlobImage from "../images/glob.png"
-import LogoImage from "../images/logo.svg"
+import LogoImage from "../images/logo.png"
 import ArrowImage from "../images/social-arrow.svg"
 
 export const HeroSegmentWrapper = styled.div`
