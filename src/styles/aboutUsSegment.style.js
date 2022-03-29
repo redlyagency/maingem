@@ -1,4 +1,5 @@
 import styled from "styled-components"
+
 import LoyaltyIcon from "../images/loyalty-icon.svg"   
 
 export const AboutUsWrapper = styled.div`
@@ -10,8 +11,10 @@ max-width: 1920px;
 display: flex;
 `
 export const IconLoyalty = styled.div`
-    background: transparent url($LoyaltyIcon);
+    background-image: url(${LoyaltyIcon});
     background-size: 100%;
+    height: 50px;
+    width: 50px;
 `
 
 export const H1 = styled.h1`
