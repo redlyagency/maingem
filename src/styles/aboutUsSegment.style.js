@@ -1,45 +1,48 @@
-import styled from "styled-components"
-
-import LoyaltyIcon from "../images/loyalty-icon.svg"
-import PassionIcon from "../images/passion-icon.svg"
-import TransparencyIcon from "../images/transparency-icon.svg"
-import IndependenceIcon from "../images/independence-icon.svg"  
+import styled from "styled-components" 
 
 export const AboutUsWrapper = styled.div`
-background: transparent linear-gradient(253deg, #FFFFFF 0%, #E2E2E2 100%) 0% 0% no-repeat padding-box;
-opacity: 1;
-height: 100vh;
-width: 100vh;
-max-width: 1920px;
-display: flex;
+    background: linear-gradient(253deg, #FFFFFF 0%, #E2E2E2 100%);
+    opacity: 1;
+    padding: 100px 0;
+    height: 100vh;
+    width: 100vw;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
 `
-export const IconLoyalty = styled.div`
-    background-image: url(${LoyaltyIcon});
-    background-size: 100%;
-    height: 50px;
-    width: 50px;
+export const BodyWrapper = styled.div`
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 80px;
 `
-export const IconPassion = styled.div`
-    background-image: url(${PassionIcon});
-    background-size: 100%;
-    height: 45px;
-    width: 50px;
+export const ColumnWrapper = styled.div`
+    height: 100%;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `
-export const IconTransparency = styled.div`
-    background-image: url(${TransparencyIcon});
-    background-size: 100%;
-    height: 50px;
-    width: 50px;
+export const Title = styled.h6`
+    padding-top: 10px;
 `
-export const IconIndependence = styled.div`
-    background-image: url(${IndependenceIcon});
-    background-size: 100%;
-    height: 50px;
-    width: 50px;
+export const Content = styled.p`
+    text-align: center;
+`
+
+export const Icon = styled.div`
+    background-image: ${props => `url(${props.iconImg})`};
+    background-size: 90%;
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
 `
 export const HeaderDiv = styled.div`
     height: 5vh;
-    width: 100vh;
+    width: 100;
     padding-top: 350px;
     padding: 60px 100px;
 `
