@@ -9,6 +9,10 @@ export const AboutUsWrapper = styled.div`
     max-width: 1920px;
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 800px) {
+        height: auto;
+    }
 `
 export const BodyWrapper = styled.div`
     width: 100vw;
@@ -16,6 +20,10 @@ export const BodyWrapper = styled.div`
     display: flex;
     justify-content: space-around;
     padding: 50px 80px;
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
 `
 export const ColumnWrapper = styled.div`
     height: 100%;
@@ -50,6 +58,10 @@ export const H1 = styled.h1`
     color: #38004F;
     font: normal normal 600 45px/57px Nunito;
     opacity: 1;
+    
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
 `
 export const DivIcon = styled.div`
     height: 5vh;
