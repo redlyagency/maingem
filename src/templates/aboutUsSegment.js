@@ -38,7 +38,7 @@ const aboutUsData = [
         Content: "Vestibulum sed tellus commodo, volutpat purus in, tincidunt nibh. Nullam dictum at quam sit amet facilisis. Nulla ante orci, viverra a placerat ut, efficitur at ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc in urna sit amet metus iaculis sagittis. Quisque laoreet faucibus libero a venenatis."
     }
 ]
- 
+
 const AboutUsSegment = () => {
     return(
         <AboutUsWrapper>

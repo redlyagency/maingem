@@ -1,7 +1,7 @@
 import styled from "styled-components" 
 
-export const AboutUsWrapper = styled.div`
-    background: linear-gradient(253deg, #FFFFFF 0%, #E2E2E2 100%);
+export const OurOffersWrapper = styled.div`
+    background: transparent linear-gradient(267deg, #5D1C7B 0%, #371047 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
     padding: 100px 0px;
     height: 100vh;
@@ -12,6 +12,25 @@ export const AboutUsWrapper = styled.div`
 
     @media (max-width: 800px) {
         height: auto;
+    }
+`
+export const HeaderDiv = styled.div`
+    height: 5vh;
+    width: 100;
+    padding: 60px 100px;
+
+    @media (max-width: 800px) {
+        height: auto;
+        padding: 60px 100px;
+    }
+`
+export const H1 = styled.h1`
+    color: #E2E2E2;
+    font: normal normal 600 45px/57px Nunito;
+    opacity: 1;
+    
+    @media (max-width: 800px) {
+        font: normal normal 600 30px/43px Nunito;
     }
 `
 export const BodyWrapper = styled.div`
@@ -40,6 +59,7 @@ export const ColumnWrapper = styled.div`
 `
 export const Title = styled.h4`
     padding-top: 10px;
+    color: #E2E2E2;
 
     @media (max-width: 800px) {
         padding-top: 0px;
@@ -47,7 +67,7 @@ export const Title = styled.h4`
 `
 export const Content = styled.p`
     text-align: center;
-    color: #38004F;
+    color: #E2E2E2;
 `
 
 export const Icon = styled.div`
@@ -63,24 +83,5 @@ export const Icon = styled.div`
         height: 40px;
         width: 40px;
         align-items: center;
-    }
-`
-export const HeaderDiv = styled.div`
-    height: 5vh;
-    width: 100;
-    padding: 60px 100px;
-
-    @media (max-width: 800px) {
-        height: auto;
-        padding: 60px 100px;
-    }
-`
-export const H1 = styled.h1`
-    color: #38004F;
-    font: normal normal 600 45px/57px Nunito;
-    opacity: 1;
-    
-    @media (max-width: 800px) {
-        font: normal normal 600 30px/43px Nunito;
     }
 `
